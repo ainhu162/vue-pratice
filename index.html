@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Vue Http</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div id="app"></div>
+    <script src="/dist/build.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-analytics.js"></script>
+
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: 'AIzaSyCUQ-uOTZRfWOtLYHCh83i_WDsOzHSn6bE',
+        authDomain: 'vuejs-http-ead37.firebaseapp.com',
+        databaseURL: 'https://vuejs-http-ead37.firebaseio.com',
+        projectId: 'vuejs-http-ead37',
+        storageBucket: 'vuejs-http-ead37.appspot.com',
+        messagingSenderId: '122993521663',
+        appId: '1:122993521663:web:1111b130703a35eb4c2dca',
+        measurementId: 'G-7VSD26DVXN',
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
+  </body>
+</html>
